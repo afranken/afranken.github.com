@@ -89,6 +89,11 @@ aside li a[href*="xing"] {
 	padding-left: 20px;
 }
 
+aside li a[href*="linkedin"] {
+	background: url( 'https://www.linkedin.com/favicon.ico' ) 0 0 no-repeat;
+	padding-left: 20px;
+}
+
 aside li a[href$="github.com/afranken"]{
 	background: url( 'https://github.com/favicon.ico' ) 0 0 no-repeat;
 	padding: 0 0 4em 20px;
