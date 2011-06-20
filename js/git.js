@@ -1,7 +1,7 @@
 jQuery(document).ready(function($) {
 
 	var repos = $('#repositories');
-	var username = 'bueltge';
+	var username = 'afranken';
 
 	$.getJSON('http://github.com/api/v2/json/repos/show/' + username + '?callback=?', function(data, status) {
 		$.each(data.repositories.reverse(), function() {

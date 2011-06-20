@@ -1,7 +1,7 @@
 jQuery(document).ready(function($) {
 	
 	var repos = $('#gists');
-	var username = 'bueltge';
+	var username = 'afranken';
 
 	$.getJSON('https://gist.github.com/api/v1/json/gists/' + username + '?callback=?', function(data, status) {
 		$.each(data.gists, function() {
