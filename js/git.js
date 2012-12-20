@@ -3,7 +3,7 @@ jQuery(document).ready( function($) {
 	// https://api.github.com/users/bueltge/repos?sort=updated
 	var apiUrl = 'https://api.github.com/users/',
 	    repos = $('#repositories'),
-	    username = 'bueltge',
+	    username = 'afranken',
 	    urlParam = '?sort=updated';
 	
 	$.getJSON( apiUrl + username + '/repos' + urlParam + '&callback=?', function(data, status) {
